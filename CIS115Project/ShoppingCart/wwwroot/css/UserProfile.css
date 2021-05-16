@@ -1,0 +1,181 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+html {
+    font-size: 16px;
+}
+:root {
+    --headerColor: red;
+    --tableHeaderFontColor: white;
+    --tableHeaderBgColor: green;
+    --tableFontSize: 3rem;
+    --tableHeaderFontColorBig: white;
+    --tableHeaderBgColorBig: red;
+    --tableFontSizeBig: 1rem;
+}
+
+#Header {
+    color: var(--headerColor);
+}
+
+.TableClass {
+    color: var(--headerColor);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 480px){
+    .TableClass thead tr {
+        background-color: var(--tableHeaderBgColor);
+        color: var(--tableHeaderFontColor);
+        font-size: var(--tableFontSize);
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    .TableClass thead tr {
+        background-color: var(--tableHeaderBgColorBig);
+        color: var(--tableHeaderFontColorBig);
+        font-size: var(--tableFontSizeBig);
+    }
+}
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+
+
+
+.pb-3 {
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 1rem;
+    font: normal 12px/30px Helvetica, Apple Chancery;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 2;
+}
+footer a:hover {
+    text-decoration: none;
+}
+
+.GramButtons {
+    background-color: #0095f6 !important;
+    color: white !important;
+    font-size: small;
+    border-radius: 4px;
+    text-decoration: none!important;
+}
+
+    .GramButtons:hover {
+        background-color: royalblue !important;
+    }
